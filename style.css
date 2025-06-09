@@ -57,6 +57,7 @@ ul {
 
 .section-padding {
   padding: var(--spacing-xl) 0;
+  scroll-margin-top: 90px; /* Offset for sticky header */
 }
 
 .section-title {
@@ -725,6 +726,7 @@ ul {
   }
   .section-padding {
     padding: var(--spacing-lg) 0;
+    scroll-margin-top: 70px; /* Smaller offset for mobile header */
   }
   .section-title {
     font-size: 2rem;
